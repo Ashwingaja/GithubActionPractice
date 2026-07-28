@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps :
       - name : print a Greeting
-        run : echo"hello world Good Afternoon"
+        run : echo "hello world Good Afternoon"
 
       - name : Multiline Greeting
         run : |
-          echo"welcome to the Github Action"
-          echo"it runs on : $RUNNER_OS"
-          echo"the github repo is : $GITHUB_REPOSITORY"
+          echo "welcome to the Github Action"
+          echo "it runs on : $RUNNER_OS"
+          echo "the github repo is : $GITHUB_REPOSITORY"
